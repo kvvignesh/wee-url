@@ -27,7 +27,6 @@
     "fix-lint": "./node_modules/eslint/bin/eslint.js  src --ext .ts --fix"
   },
   "dependencies": {
-    "@types/valid-url": "^1.0.3",
     "base-hash": "^1.0.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -38,6 +37,7 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
+    "@types/valid-url": "^1.0.3",
     "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.6",
     "@types/mongoose": "^5.7.29",
