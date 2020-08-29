@@ -24,7 +24,6 @@
     "lint": "./node_modules/eslint/bin/eslint.js  src --ext .ts",
     "dev": "nodemon src/server.ts",
     "start": "node dist/src/server.js",
-    "test": "jest",
     "fix-lint": "./node_modules/eslint/bin/eslint.js  src --ext .ts --fix"
   },
   "dependencies": {
@@ -48,7 +47,6 @@
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
-    "ts-jest": "^26.1.1",
     "typescript": "^3.9.6"
   },
   "license": "MIT"
